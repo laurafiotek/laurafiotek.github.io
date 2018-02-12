@@ -1,0 +1,163 @@
+/* INDEX */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* FIRST SECTION */
+
+.hello-index {
+    background-image: url(../img/hellomobile.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.hello-index a:-webkit-any-link {
+    text-decoration: none;
+    color: #626b9f;
+}
+.nav-index {
+    list-style-type: none;
+    padding-top: 1rem;
+}
+.nav-index li a {
+	float: right;
+	display: block;
+}
+.nav-index ul {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.header-index {
+    margin: 13rem 5rem;
+    font-size: 1.5rem;
+    color: #626b9f;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.hello-index h1, h2 {
+    font-family: 'Glass Antiqua', Helvetica;
+    font-weight: normal;
+    font-size: 2.8rem;
+    /* letter-spacing: 1.4px;
+    text-shadow: 0.03rem 0.03rem 0.08rem black; */
+}
+
+
+
+
+/* SECOND SECTION */
+
+
+
+h3 {
+  font-size: 1.6rem;
+  color: #626b9f;
+}
+
+.about-index {
+  background-color: #fdfaf7;
+  text-align: center;
+}
+
+.img-about {
+  padding-top: 5rem;
+}
+
+.img-about img {
+  height: 8rem;
+}
+
+.text-about {
+  font-family: 'Open Sans', Helvetica;
+  text-align: center;
+  font-size: 0.98rem;
+  line-height: 1.8;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.know-index {
+  padding-top: 5rem;
+  font-family: 'Open Sans', Helvetica;
+  line-height: 1.8;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.know-index h4 {
+  font-size: 1.2rem;
+  color: #626b9f;
+}
+
+.know-index p {
+  margin-bottom: 0;
+}
+
+
+/* FOOTER SECTION */
+
+
+
+.footer-index {
+  height: 20vh;
+  margin: 0;
+  background-color: #fdfaf7;
+  font-family: 'Open Sans', Helvetica;
+}
+
+.footnav-index {
+  padding-top: 3rem;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.footer-list li {
+  list-style-type: none;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #5d5b5b;
+}
+
+.footer-list .about, .contact-me {
+  float: left;
+}
+
+.social-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  /* padding-top: 2rem; */
+  padding-left: 0;
+  margin: 0;
+}
+
+.social-list a {
+  font-size: 1.5rem;
+  color: #3F51B5;
+}
+
+.social-list .fa-github {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.year-index {
+  text-align: center;
+  color: #5d5b5b;
+  padding-bottom: 2px;
+}
