@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #fdfaf7;
 }
 
 /* FIRST SECTION */
@@ -63,7 +64,7 @@ h3 {
 }
 
 .about-index {
-  background-color: #fdfaf7;
+  /* background-color: #fdfaf7; */
   text-align: center;
 }
 
@@ -87,10 +88,11 @@ h3 {
 
 .know-index {
   padding-top: 5rem;
-  font-family: 'Open Sans', Helvetica;
-  line-height: 1.8;
+  padding-bottom: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  font-family: 'Open Sans', Helvetica;
+  line-height: 1.8;
 }
 
 .know-index h4 {
@@ -102,16 +104,28 @@ h3 {
   margin-bottom: 0;
 }
 
+.know-index button {
+  font-family: 'Glass Antiqua', Helvetica;
+  font-size: 2.7rem;
+  border-radius: 7px;
+  padding: 0.6rem;
+  background-color: #5163c1; 
+}
+
+.know-index button > a {
+  text-decoration: none;
+  color: #fdfaf7;
+}
 
 /* FOOTER SECTION */
 
 
 
 .footer-index {
-  height: 20vh;
   margin: 0;
-  background-color: #fdfaf7;
+  /* background-color: #fdfaf7; */
   font-family: 'Open Sans', Helvetica;
+  background-color: #eaebf3;
 }
 
 .footnav-index {
@@ -141,14 +155,15 @@ h3 {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  /* padding-top: 2rem; */
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   padding-left: 0;
   margin: 0;
 }
 
 .social-list a {
   font-size: 1.5rem;
-  color: #3F51B5;
+  color: #5163c1; 
 }
 
 .social-list .fa-github {
