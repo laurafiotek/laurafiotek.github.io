@@ -14,12 +14,12 @@ body {
     height: 100vh;
     width: 100%;
 }
-.hello-index a:-webkit-any-link {
+/*.hello-index a:-webkit-any-link {
     text-decoration: none;
     color: #626b9f;
 }
 .nav-index {
-    list-style-type: none;
+     list-style-type: none;
     padding-top: 1rem;
 }
 .nav-index li a {
@@ -33,10 +33,10 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 0;
-}
+} */
 
 .header-index {
-    margin: 13rem 5rem;
+    padding-top: 11rem;
     font-size: 1.5rem;
     color: #626b9f;
     text-align: center;
