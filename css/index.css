@@ -49,7 +49,9 @@ body {
     font-size: 2.8rem;
 }
 
-
+.nav-index {
+  display: none;
+}
 
 
 /* SECOND SECTION */
@@ -194,6 +196,9 @@ h3 {
     height: 100vh;
     width: 100%;
   }
+  .nav-index {
+    display: none;
+  }
   .header-index {
     padding-top: 1rem;
   }
@@ -208,6 +213,9 @@ h3 {
   .hello-index {
     background-image: url(../img/hellotablet2.png);
   }
+  .nav-index {
+    display: none;
+  }
   .text-about {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -220,6 +228,9 @@ h3 {
   }
   .header-index {
     padding-top: 4rem;
+  }
+  .nav-index {
+    display: none;
   }
   .text-about {
     padding-left: 8rem;
@@ -247,5 +258,64 @@ h3 {
   .year-index {
     clear: both;
     padding-top: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hello-index {
+    background-image: url(../img/hello.png);
+  }
+  .hello-index a:-webkit-any-link {
+    text-decoration: none;
+    color: #626b9f;
+  }
+  .nav-index {
+    list-style-type: none;
+    display: unset;
+  }
+  .nav-index li a {
+    float: right;
+    display: block;
+    transition: color 0.5s;
+  }
+  .nav-index li a:hover {
+    color: #5d5b5b;
+  }
+  .nav-index ul {
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    float: right;
+    padding-right: 2rem;
+  }
+  .nav-index .contact-nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .text-about p {
+    padding-left: 15rem;
+    padding-right: 15rem;
+  }
+  .img-about {
+    height: 10rem;
+  }
+  .btn {
+    transition: color 0.5s;
+  }
+  .btn:hover {
+    color: #4758aa;
+  }
+  .social-list a,
+  .footer-list a {
+    transition: color 0.5s;
+  }
+  .social-list a:hover {
+    color: #5d5b5b;
+  }
+  .footer-list a:hover {
+    color: #5163c1;
   }
 }
