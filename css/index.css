@@ -47,8 +47,6 @@ body {
     font-family: 'Glass Antiqua', Helvetica;
     font-weight: normal;
     font-size: 2.8rem;
-    /* letter-spacing: 1.4px;
-    text-shadow: 0.03rem 0.03rem 0.08rem black; */
 }
 
 
@@ -110,6 +108,7 @@ h3 {
   border-radius: 7px;
   padding: 0.6rem;
   background-color: #5163c1; 
+  border: none;
 }
 
 .know-index button > a {
@@ -173,13 +172,18 @@ h3 {
 
 .year-index {
   text-align: center;
-  color: #5d5b5b;
+  color: #aba9a9;
+  font-size: 0.8rem;
   padding-bottom: 2px;
 }
 
 
 
+
+
 /* MQ */
+
+
 
 
 
@@ -191,18 +195,57 @@ h3 {
     width: 100%;
   }
   .header-index {
-    padding-top: 2rem;
+    padding-top: 1rem;
+  }
+  .hello-index h1, h2 {
+    font-size: 2.4rem;
   }
 }
+
+
 
 @media (min-width: 768px) {
   .hello-index {
     background-image: url(../img/hellotablet2.png);
+  }
+  .text-about {
+  padding-left: 3rem;
+  padding-right: 3rem;
   }
 }
 
 @media (min-width: 960px) {
   .hello-index {
     background-image: url(../img/hellotablet2.png);
+  }
+  .header-index {
+    padding-top: 4rem;
+  }
+  .text-about {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .text-about p {
+    line-height: 2.5rem;
+  }
+  .footer-list {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding-top: 5px;
+  }
+  .social-list {
+    float: left;
+    width: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .social-list .fa-github {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .year-index {
+    clear: both;
+    padding-top: 2rem;
   }
 }
