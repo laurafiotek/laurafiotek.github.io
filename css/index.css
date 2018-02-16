@@ -111,6 +111,7 @@ h3 {
   padding: 0.6rem;
   background-color: #5163c1; 
   border: none;
+  transition: all 0.5s ease 0s;
 }
 
 .know-index button > a {
@@ -125,7 +126,7 @@ h3 {
 .footer-index {
   margin: 0;
   /* background-color: #fdfaf7; */
-  font-family: 'Open Sans', Helvetica;
+  font-family: 'Montserrat', sans-serif;
   background-color: #eaebf3;
 }
 
@@ -265,15 +266,28 @@ h3 {
   .hello-index {
     background-image: url(../img/hello.png);
   }
-  .hello-index h1, h2 {
-    font-size: 2.9rem;
+  .header-index {
+    padding-top: 2rem;
+  }
+  .header-index h1 {
+    font-size: 3.8rem;
+    width: 50%;
+    float: left;
+    text-align: right;
+  }
+  .header-index h2 {
+    font-size: 2.6rem;
+    width: 50%;
+    float: right;
+    text-align: left;
+    padding-top: 3rem;
   }
   .about-index {
     background-image: url(../img/section2.png)
   }
   .hello-index a:-webkit-any-link {
     text-decoration: none;
-    color: #626b9f;
+    color: #4288b6;
   }
   .nav-index {
     list-style-type: none;
@@ -285,12 +299,12 @@ h3 {
     transition: color 0.5s;
   }
   .nav-index li a:hover {
-    color: #5d5b5b;
+    color: #626b9f;
   }
   .nav-index ul {
     list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
     display: flex;
     justify-content: space-around;
     padding: 0;
@@ -314,6 +328,15 @@ h3 {
   .btn:hover {
     color: #4758aa;
   }
+  .social-list {
+    justify-content: flex-start;
+    padding-left: 6rem;
+    width: 37%;
+  }
+  .footer-list {
+    width: 37%;
+    padding-right: 3rem;
+  }
   .social-list a,
   .footer-list a {
     transition: color 0.5s;
@@ -323,5 +346,11 @@ h3 {
   }
   .footer-list a:hover {
     color: #5163c1;
+  }
+  /* button {
+    transition: all 0.5s ease 0s;
+  } */
+  button:hover {
+    background: #4258c5;
   }
 }
