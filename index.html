@@ -12,7 +12,6 @@
   <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Montserrat" rel="stylesheet">
   <link href="img/fav-portfolio2.png" rel="shortcut icon">
   <link rel="stylesheet" type="text/css" href="css/index.css">
-  <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
   <script defer src="js/fontawesome-all.js"></script>
 </head>
 
@@ -23,7 +22,21 @@
       <nav class="nav-index">
         <ul>
           <li><a href="#_mlf" class="anchorLink">About</a></li>
-          <li><a href="#" class="contact-nav">Contact me</a></li>
+
+
+          <li><a href="#" id="myBtn" class="contact-nav">Contact me</a></li>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h1>How can I help you?</h1>
+              <p>laurafiotek@gmail.com</p>
+              <p>011.5485.7873</p>
+              <p>Buenos Aires, Argentina.</p>
+            </div>
+          </div>
+
           <li><a href="#">Works</a></li>
         </ul>
       </nav>
@@ -36,9 +49,9 @@
     </section>
 
 
-    <section class="about-index">
+    <section id="_mlf" class="about-index">
       <div class="img-about"><img src="img/portfolio-lau.png" alt="Mi foto"></div>
-      <div id="_mlf" class="text-about">
+      <div class="text-about">
         <h3>Welcome!</h3>
         <p>You found a Web Designer based in Buenos Aires, Argentina; 
         who loves challenges that inspire. 
@@ -46,7 +59,7 @@
       </div>
 
       <div class="know-index">
-        <button class="btn"><a href="contact.html">Let's talk!</a></button>
+        <button class="btn" id="letstalk"><a href="#">Let's talk!</a></button>
       </div>
     </section>
     
@@ -57,7 +70,9 @@
 
           <ul class="footer-list">
             <li><a href="about.html" class="about">About</a></li>
-            <li><a href="contact.html" class="contact-me">Contact me</a></li>
+            <li><a href="#" id="footercontact" class="contact-me">Contact me</a></li>
+
+
             <li><a href="works.html">Works</a></li>
           </ul>
 
@@ -86,13 +101,16 @@
     </section> 
   </div>
 </body>
-<script src="skrollr.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jquery.modal.js" type="text/javascript"></script>
+<script src="js/jquery.anchor.js" type="text/javascript"></script>
 <script type="text/javascript">
-  //para activarlo y que funcione: 
-  skrollr.init();
+  $(function() {
+    openModal('myBtn');
+    openModal('letstalk');
+    openModal('footercontact');
+  });
 </script>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/jquery.anchor.js" type="text/javascript"></script>
 
 </html>
