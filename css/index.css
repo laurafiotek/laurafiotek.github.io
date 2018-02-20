@@ -71,7 +71,7 @@ h3 {
 }
 
 .about-index {
-  background-image: url(../img/section2mobile.png);
+  /* background-image: url(../img/section2mobile.png); */
   background-color: #fdfaf7;
   text-align: center;
   background-size: cover;
@@ -97,6 +97,10 @@ h3 {
   padding-right: 2rem;
 }
 
+.works-index {
+  text-align: center;
+  background-image: url(../img/section2mobile.png);
+}
 
 .know-index {
   padding-top: 5rem;
@@ -258,6 +262,9 @@ h3 {
     font-size: 2.4rem;
   }
   .about-index {
+  background-color: #fdfaf7;
+  }
+  .works-index {
     background-image: url(../img/section2tablet.png);
   }
 }
@@ -276,6 +283,9 @@ h3 {
   padding-right: 3rem;
   }
   .about-index {
+  background-color: #fdfaf7;
+  }
+  .works-index {
     background-image: url(../img/section2tablet2.png);
   }
 }
@@ -291,7 +301,7 @@ h3 {
     display: none;
   }
   .about-index {
-    background-image: url(../img/section2tablet2.png);
+  background-color: #fdfaf7;
   }
   .text-about {
     padding-left: 8rem;
@@ -299,6 +309,9 @@ h3 {
   }
   .text-about p {
     line-height: 2.5rem;
+  }
+  .works-index {
+    background-image: url(../img/section2tablet2.png);
   }
   .footer-list {
     float: right;
@@ -341,9 +354,6 @@ h3 {
     float: right;
     text-align: left;
     padding-top: 3rem;
-  }
-  .about-index {
-    background-image: url(../img/section2.png)
   }
   .hello-index a:-webkit-any-link {
     text-decoration: none;
@@ -430,20 +440,55 @@ h3 {
     text-decoration: none;
     cursor: pointer;
   }
-
-
-  .text-about p {
-    padding-left: 15rem;
-    padding-right: 15rem;
+  .about-index {
+  background-color: #fdfaf7;
   }
   .img-about {
-    height: 10rem;
+    width: 50%;
+    float: left;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .img-about > img {
+    height: 29rem;
+  }
+  .text-about {
+    width: 45%;
+    float: right;
+    padding: 0;
+    margin-right: 2rem;
+    text-align: -webkit-left;
+  }
+  .text-about h2 {
+    color: #626b9f;
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  .text-about h3 {
+    font-family: 'Montserrat', Helvetica;
+    color: #8a8989;
+    font-size: 1rem;
+    font-weight: 100;
+    margin: 0;
+  }
+  .text-about p {
+    font-family: 'Montserrat', Helvetica;
+    font-size: 0.9rem;
+    line-height: 2.5;
+    padding-left: 0;
+    padding-right: 1rem;
   }
   .btn {
     transition: color 0.5s;
   }
   .btn:hover {
     color: #4758aa;
+  }
+  .works-index {
+    /* previsorio */
+    height: 107vh;
+    background-image: url(../img/section2.png)
   }
   .social-list {
     justify-content: flex-start;
