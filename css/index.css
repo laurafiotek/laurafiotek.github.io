@@ -81,11 +81,12 @@ h3 {
 }
 
 .img-about {
-  padding-top: 5rem;
+  padding-top: 0;
 }
 
 .img-about img {
-  height: 8rem;
+  height: 19rem;
+  max-width: 100%;
 }
 
 .text-about {
@@ -442,11 +443,13 @@ h3 {
   }
   .about-index {
   background-color: #fdfaf7;
+  padding-bottom: 0;
   }
   .img-about {
     width: 50%;
     float: left;
-    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-top: 4.5rem;
     display: flex;
     justify-content: flex-start;
   }
@@ -457,6 +460,7 @@ h3 {
     width: 45%;
     float: right;
     padding: 0;
+    padding-top: 6.5rem;
     margin-right: 2rem;
     text-align: -webkit-left;
   }
