@@ -14,34 +14,12 @@ body {
     height: 100vh;
     width: 100%;
 }
-/*.hello-index a:-webkit-any-link {
-    text-decoration: none;
-    color: #626b9f;
-}
-.nav-index {
-     list-style-type: none;
-    padding-top: 1rem;
-}
-.nav-index li a {
-	float: right;
-	display: block;
-}
-.nav-index ul {
-    list-style-type: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-} */
-
 .header-index {
     padding-top: 2rem;
     font-size: 1.5rem;
     color: #626b9f;
     text-align: center;
 }
-
 .hello-index h1, h2 {
     font-family: 'Grand Hotel', cursive;
     font-weight: normal;
@@ -65,17 +43,16 @@ body {
 
 
 
-h3 {
+/* h3 {
   font-size: 1.6rem;
   color: #626b9f;
-}
+} */
 
 .about-index {
   /* background-image: url(../img/section2mobile.png); */
   background-color: #fdfaf7;
   text-align: center;
   background-size: cover;
-  height: 100vh;
   width: 100%;
   padding-bottom: 4rem;
 }
@@ -88,7 +65,6 @@ h3 {
   height: 19rem;
   max-width: 100%;
 }
-
 .text-about {
   font-family: 'Open Sans', Helvetica;
   text-align: center;
@@ -97,17 +73,35 @@ h3 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+.text-about h2 {
+  color: #626b9f;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.text-about h3 {
+  font-family: 'Montserrat', Helvetica;
+  color: #8a8989;
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+
+
+/* WORKS SECTION */
+
+
 
 .works-index {
-  text-align: center;
   background-image: url(../img/section2mobile.png);
+  text-align: center;
 }
 
 .know-index {
-  padding-top: 5rem;
+  /* padding-top: 5rem;
   padding-bottom: 4rem;
   padding-left: 2rem;
-  padding-right: 2rem;
+  padding-right: 2rem; */
   font-family: 'Open Sans', Helvetica;
   line-height: 1.8;
 }
@@ -131,10 +125,13 @@ h3 {
   transition: all 0.5s ease 0s;
 }
 
-.know-index button > a {
+.know-index button {
   text-decoration: none;
   color: #fdfaf7;
 }
+
+
+
 
 /* FOOTER SECTION */
 
@@ -238,6 +235,18 @@ h3 {
     to {top: 0; opacity: 1}
   }
 
+.contact-me {
+  color: #5d5b5b;
+  border: none;
+  background-color: transparent;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
 
 
 /* MQ */
@@ -286,9 +295,9 @@ h3 {
   .about-index {
   background-color: #fdfaf7;
   }
-  .works-index {
+  /* .works-index {
     background-image: url(../img/section2tablet2.png);
-  }
+  } */
 }
 
 @media (min-width: 960px) {
@@ -311,9 +320,9 @@ h3 {
   .text-about p {
     line-height: 2.5rem;
   }
-  .works-index {
-    background-image: url(../img/section2tablet2.png);
-  }
+  /* .works-index { 
+     background-image: url(../img/section2tablet2.png); 
+  }*/
   .footer-list {
     float: right;
     width: 50%;
@@ -339,6 +348,25 @@ h3 {
 @media (min-width: 1200px) {
   .hello-index {
     background-image: url(../img/hello.png);
+  }
+  .contact-nav {
+    border: none;
+    background-color: transparent;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+  }
+  .contact-nav {
+    color: #4288b6;
+  }
+  .nav-index button:hover {
+    color: #5d5b5b;
+    background-color: transparent;
+  }
+  .footer-list button:hover {
+    color: #4288b6;
+    background-color: transparent;
   }
   .header-index {
     padding-top: 2rem;
@@ -428,13 +456,14 @@ h3 {
   }
 
 /* The Close Button */
+
+
   .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
   }
-
   .close:hover,
   .close:focus {
     color: black;
@@ -444,6 +473,7 @@ h3 {
   .about-index {
   background-color: #fdfaf7;
   padding-bottom: 0;
+  height: 100vh;
   }
   .img-about {
     width: 50%;
@@ -456,25 +486,13 @@ h3 {
   .img-about > img {
     height: 29rem;
   }
-  .text-about {
+   .text-about {
     width: 45%;
     float: right;
     padding: 0;
     padding-top: 6.5rem;
     margin-right: 2rem;
     text-align: -webkit-left;
-  }
-  .text-about h2 {
-    color: #626b9f;
-    font-size: 3rem;
-    margin-bottom: 0;
-  }
-  .text-about h3 {
-    font-family: 'Montserrat', Helvetica;
-    color: #8a8989;
-    font-size: 1rem;
-    font-weight: 100;
-    margin: 0;
   }
   .text-about p {
     font-family: 'Montserrat', Helvetica;
@@ -484,15 +502,16 @@ h3 {
     padding-right: 1rem;
   }
   .btn {
+    cursor: pointer;
     transition: color 0.5s;
   }
   .btn:hover {
-    color: #4758aa;
+    background-color: #4758aa;
   }
   .works-index {
     /* previsorio */
     height: 107vh;
-    background-image: url(../img/section2.png)
+    background-image: url(../img/section2.png);
   }
   .social-list {
     justify-content: flex-start;
@@ -516,7 +535,7 @@ h3 {
   /* button {
     transition: all 0.5s ease 0s;
   } */
-  button:hover {
+  /* button:hover {
     background: #4258c5;
-  }
+  } */
 }
