@@ -93,8 +93,11 @@ body {
 
 
 .works-index {
-  background-image: url(../img/section2mobile.png);
+  background-image: url(../img/section2mobile2.png);
   text-align: center;
+  background-size: cover;
+  height: 66vh;
+  width: 100%;
 }
 
 .know-index {
