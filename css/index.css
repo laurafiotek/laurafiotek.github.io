@@ -99,7 +99,9 @@ body {
   height: 66vh;
   width: 100%;
 }
-
+.my_projects {
+  height: 70vh;
+}
 .know-index {
   /* padding-top: 5rem;
   padding-bottom: 4rem;
@@ -278,7 +280,11 @@ body {
   background-color: #fdfaf7;
   }
   .works-index {
-    background-image: url(../img/section2tablet.png);
+    background-image: url(../img/section2tablet2.png);
+    height: 65vh;
+  }
+  .my_projects {
+    height: 35vh;
   }
 }
 
@@ -298,9 +304,13 @@ body {
   .about-index {
   background-color: #fdfaf7;
   }
-  /* .works-index {
+  .works-index {
     background-image: url(../img/section2tablet2.png);
-  } */
+    height: 85vh;
+  } 
+  .my_projects {
+    height: 55vh;
+  }
 }
 
 @media (min-width: 960px) {
@@ -323,9 +333,13 @@ body {
   .text-about p {
     line-height: 2.5rem;
   }
-  /* .works-index { 
-     background-image: url(../img/section2tablet2.png); 
-  }*/
+  .works-index { 
+    background-image: url(../img/section2tablet2.png);
+    height: 110vh; 
+  }
+  .my_projects {
+    height: 70vh;
+  }
   .footer-list {
     float: right;
     width: 50%;
@@ -512,9 +526,11 @@ body {
     background-color: #4758aa;
   }
   .works-index {
-    /* previsorio */
     height: 107vh;
     background-image: url(../img/section2.png);
+  }
+  .my_projects {
+    height: 66vh;
   }
   .social-list {
     justify-content: flex-start;
