@@ -39,32 +39,32 @@ body {
 }
 
 
+
+
+
 /* SECOND SECTION */
 
 
 
-/* h3 {
-  font-size: 1.6rem;
-  color: #626b9f;
-} */
 
 .about-index {
-  /* background-image: url(../img/section2mobile.png); */
   background-color: #fdfaf7;
   text-align: center;
   background-size: cover;
   width: 100%;
   padding-bottom: 4rem;
 }
-
 .img-about {
-  padding-top: 0;
+  display: none;
+}
+.img-about-mobile {
+  display: unset;
+}
+.img-about-mobile img {
+  height: 15rem;
+  margin-top: 2rem;
 }
 
-.img-about img {
-  height: 19rem;
-  max-width: 100%;
-}
 .text-about {
   font-family: 'Open Sans', Helvetica;
   text-align: center;
@@ -75,7 +75,8 @@ body {
 }
 .text-about h2 {
   color: #626b9f;
-  font-size: 3rem;
+  font-size: 2.7rem;
+  margin-top: 1rem;
   margin-bottom: 0;
 }
 .text-about h3 {
@@ -100,13 +101,9 @@ body {
   width: 100%;
 }
 .my_projects {
-  height: 40vh;
+  height: 35vh;
 }
 .know-index {
-  /* padding-top: 5rem;
-  padding-bottom: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem; */
   font-family: 'Open Sans', Helvetica;
   line-height: 1.8;
 }
@@ -202,7 +199,7 @@ body {
 /* MODAL */
 
   /* The Modal (background) */
-  .modal {
+  /* .modal {
     text-align: center;
     display: none;
     position: fixed; 
@@ -211,7 +208,6 @@ body {
     top: 0;
     width: 100%; 
     height: 100%;
-    /* overflow: auto; */
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
   }
@@ -220,12 +216,11 @@ body {
     font-size: 2.8rem;
   }
   .modal p {
-    /* color: #848282; */
     color: #5b7b99;
     font-size: 1rem;
-  }
+  } */
 /* Modal Content/Box */
-  .modal-content {
+  /* .modal-content {
     background-color: #eaebf3;
     margin: 15% auto;
     padding: 20px;
@@ -238,7 +233,7 @@ body {
   @keyframes animatetop {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1}
-  }
+  } */
 
 .contact-me {
   color: #5d5b5b;
@@ -322,6 +317,9 @@ body {
   }
   .nav-index {
     display: none;
+  }
+  .img-about-mobile img {
+      height: 20rem;
   }
   .about-index {
   background-color: #fdfaf7;
@@ -433,6 +431,8 @@ body {
   }
 
 
+/* ****************************** */
+
   /* The Modal (background) */
   .modal {
     text-align: center;
@@ -487,11 +487,26 @@ body {
     text-decoration: none;
     cursor: pointer;
   }
+
+
+
+
+  /*****************************/
+  
+  
   .about-index {
   background-color: #fdfaf7;
   padding-bottom: 0;
   height: 100vh;
   }
+
+  .img-about-mobile {
+  display: none;
+  }
+  .img-about {
+    display: unset;
+  }
+
   .img-about {
     width: 50%;
     float: left;
@@ -517,7 +532,7 @@ body {
     line-height: 2.5;
     padding-left: 0;
     padding-right: 1rem;
-  }
+  } 
   .btn {
     cursor: pointer;
     transition: color 0.5s;
