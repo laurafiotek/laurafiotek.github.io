@@ -1,0 +1,51 @@
+@media (min-width: 960px) {
+  .hello-index {
+    background-image: url(../img/hellotablet2.png);
+  }
+  .header-index {
+    padding-top: 4rem;
+  }
+  .nav-index {
+    display: none;
+  }
+  .img-about-mobile img {
+      height: 20rem;
+  }
+  .about-index {
+  background-color: #fdfaf7;
+  }
+  .text-about {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+  .text-about p {
+    line-height: 2.5rem;
+  }
+  .works-index { 
+    /* background-image: url(../img/section2tablet2.png); */
+    height: 110vh; 
+  }
+  .my_projects {
+    height: 70vh;
+  }
+  .footer-list {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding-top: 5px;
+  }
+  .social-list {
+    float: left;
+    width: 50%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .social-list .fa-github {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .year-index {
+    clear: both;
+    padding-top: 2rem;
+  }
+}

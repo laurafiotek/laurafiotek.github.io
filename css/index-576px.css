@@ -1,0 +1,28 @@
+@media (min-width: 576px) {
+  .hello-index {
+    background-image: url(../img/hellotablet2.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .nav-index {
+    display: none;
+  }
+  .header-index {
+    padding-top: 1rem;
+  }
+  .hello-index h1, h2 {
+    font-size: 2.4rem;
+  }
+  .about-index {
+  background-color: #fdfaf7;
+  }
+  .works-index {
+    /* background-image: url(../img/section2tablet2.png); */
+    height: 65vh;
+  }
+  .my_projects {
+    height: 35vh;
+  }
+}
+
