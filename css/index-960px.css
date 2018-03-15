@@ -28,6 +28,9 @@
   .my_projects {
     height: 70vh;
   }
+  .mobile-button {
+    display: unset;
+  }
   .footer-list {
     float: right;
     width: 50%;
