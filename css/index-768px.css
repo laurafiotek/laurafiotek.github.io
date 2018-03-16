@@ -12,11 +12,12 @@
   .about-index {
   background-color: #fdfaf7;
   }
-  .works-index {
-    /* background-image: url(../img/section2tablet2.png); */
-    height: 85vh;
-  } 
-  .my_projects {
-    height: 55vh;
+
+  .footer-index .footer-list,
+  .footer-index .footer-list a {
+    font-size: 1.3rem;
+  }
+  .year-index {
+    font-size: 1.1rem;
   }
 }

@@ -9,8 +9,10 @@
     display: none;
   }
   .img-about-mobile img {
-      height: 20rem;
+    height: 20rem;
   }
+
+
   .about-index {
   background-color: #fdfaf7;
   }
@@ -18,16 +20,38 @@
     padding-left: 8rem;
     padding-right: 8rem;
   }
+  .text-about h2 {
+    font-size: 4rem;
+  }
+  .text-about h3 {
+    font-size: 1.5rem;
+  }
   .text-about p {
     line-height: 2.5rem;
+    font-size: 1.3rem;
   }
-  .works-index { 
-    /* background-image: url(../img/section2tablet2.png); */
-    height: 110vh; 
+  .dhyana_yoga h3, 
+  .docturno_landing h3 {
+    padding-top: 4rem;
+    font-size: 1.7rem;   
   }
-  .my_projects {
-    height: 70vh;
+  .projects-content {
+    font-size: 1.3rem;
+    line-height: 2rem;
   }
+  .lead-work {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+  .lead-work .btn {
+    font-size: 3rem;
+  }
+
+
+  /* .contact-content-mobile {
+    display: none;
+  } */
+
   .mobile-button {
     display: unset;
   }

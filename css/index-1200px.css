@@ -164,6 +164,13 @@
     margin-right: 2rem;
     text-align: -webkit-left;
   }
+  .text-about h2 {
+    font-size: 3.5rem;
+  }
+  .text-about h3 {
+    font-size: 1.2rem;
+  }
+
   .text-about p {
     font-family: 'Montserrat', Helvetica;
     font-size: 0.9rem;
@@ -179,13 +186,28 @@
   .btn:hover {
     background-color: #4758aa;
   }
-  .works-index {
-    height: 85vh;
-    /* background-image: url(../img/section2.png); */
+  .works-index img {
+    max-width: 45%;
   }
-  .my_projects {
-    height: 66vh;
+  .projects-content {
+    display: flex;
+    justify-content: center;
   }
+  .projects-content p {
+    font-size: 1rem;
+    width: 70%;
+  }
+  .lead-work .btn,
+  .mobile-button {
+    font-size: 2.5rem;
+  }
+  /* .btn-mobile {
+    display: none;
+  }
+  .btn-desktop {
+    display: unset;
+  } */
+
   .social-list {
     justify-content: flex-start;
     padding-left: 6rem;

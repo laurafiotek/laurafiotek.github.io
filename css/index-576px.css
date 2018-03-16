@@ -1,8 +1,7 @@
 @media (min-width: 576px) {
   .hello-index {
-    background-image: url(../img/hellotablet2.png);
+    /* background-image: url(../img/hellotablet2.png); */
     background-size: cover;
-    height: 100vh;
     width: 100%;
   }
   .nav-index {
@@ -10,19 +9,40 @@
   }
   .header-index {
     padding-top: 1rem;
+
   }
-  .hello-index h1, h2 {
-    font-size: 2.4rem;
+  .header-index h1 {
+    font-size: 5rem;
   }
+
   .about-index {
   background-color: #fdfaf7;
   }
-  .works-index {
-    /* background-image: url(../img/section2tablet2.png); */
-    height: 65vh;
+
+  .hello-index h2,
+  .text-about h2 {
+    font-size: 3rem;
   }
-  .my_projects {
-    height: 35vh;
+  .text-about h3 {
+    font-size: 1.3rem;
+  }
+  .text-about p {
+    font-size: 1.2rem;
+  }
+
+  .my_projects h3{
+   font-size: 1.5rem;
+  }
+  .projects-content {
+    font-size: 1.1rem;
+  }
+  .lead-work .btn {
+    font-size: 2.6rem;
+  }
+  .contact-content-mobile h1 {
+    font-size: 3.5rem;
+  }
+  .contact-content-mobile p {
+    font-size: 1.4rem;
   }
 }
-
