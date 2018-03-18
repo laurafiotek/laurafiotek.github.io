@@ -163,7 +163,7 @@ img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000w
 
 
 .postsblog-index {
-    display: inline-flex;
+    /* display: inline-flex; */
     background-image: url(../images/bg-cards2-mobile.png);
     background-size: cover;
     height: 95vh;
@@ -245,11 +245,56 @@ img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000w
 .footer-index .fa {
     font-size: 1.5rem;
 }
-.end-index {
-    overflow: auto;
-    padding-top: 1rem;
+.footlist-mobile-one {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-.first-list {
+.footlist-mobile-two {
+    display: flex;
+}
+.footnav-index-mobile {
+    padding-top: 2rem;
+}
+.mobilefirst-list {
+    width: 100%
+}
+.mobilesecond-list {
+    width: 100%
+}
+.footnav-index {
+    display: none;
+}
+.footsocial-mobile {
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook {
+    padding-left: 1rem;
+}
+.fa-twitter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.copyright-index {
+    margin: 0;
+    text-align: center;
+    clear: both;
+    color: #6e6c6c;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: #ebe9e7;
+}
+
+.copyright-index p {
+    margin: 0;
+}
+/* .first-list {
     float: right;
     width: 15%;
 }
@@ -270,15 +315,9 @@ img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000w
 }
 .footnav-index p {
     margin-left: 2.5rem;
-}
-.copyright-index {
-    text-align: center;
-    clear: both;
-    color: #6e6c6c;
-    font-size: 0.8rem;
-    padding-top: 0.5rem;
-    background-color: #ebe9e7;
-}
+} */
+
+
 
 
 
