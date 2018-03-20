@@ -579,26 +579,6 @@ img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000w
     .ayurveda-desktop {
         display: unset;
     }
-    /* .text-ayurveda { 
-        width: 36%;
-        float: left;
-        padding: 1rem 2rem;
-    }
-    .text-ayurveda h4 {
-        font-size: 1.7rem;
-    }
-    .text-ayurveda p {
-        font-size: 0.9rem;
-        text-align: justify;
-        line-height: 1.5rem;
-    }
-    .text-ayurveda a {
-        text-decoration: none;
-        color: #eb6682;
-        /* text-shadow: 0.05rem 0.04rem 0.05rem #ccc;    
-        font-family: 'Open Sans', Helvetica;
-        transition: padding-left 0.3s;
-    } */
     .text-ayurveda { 
         width: 44%;
         float: left;
