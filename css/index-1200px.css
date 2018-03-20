@@ -207,7 +207,12 @@
   .btn-desktop {
     display: unset;
   } */
-
+  .contact-content-mobile p {
+    font-size: 1.2rem;
+  }
+  .contact-content-mobile h1 {
+    font-size: 3.2rem;
+  }
   .social-list {
     justify-content: flex-start;
     padding-left: 6rem;
@@ -226,6 +231,13 @@
   }
   .footer-list a:hover {
     color: #5163c1;
+  }
+  .footer-index .footer-list,
+  .footer-index .footer-list a {
+    font-size: 1rem;
+  }
+  .year-index {
+    font-size: 0.8rem;
   }
   /* button {
     transition: all 0.5s ease 0s;
