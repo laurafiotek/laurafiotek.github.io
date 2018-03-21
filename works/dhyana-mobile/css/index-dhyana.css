@@ -1,0 +1,861 @@
+
+body {
+    margin: auto;
+}
+img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
+    display: none;}
+
+
+/* INDEX */
+
+.container-index {
+    background-color: #fdfaf7;
+}
+.start-index {
+    background-image: url(../images/dhyana-mobile.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #fdfaf7;
+    height: 95vh;
+}
+
+.contact-btn-yoga {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+.contact-btn-yoga a {
+    background-color: transparent;
+    border: 1.2px solid #ed7a92;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ed7a92;
+    font-family: 'Droid Serif', Helvetica;
+    border-radius: 4px;
+}
+
+
+.nav-index ul {
+    display: none;
+}
+
+.header-index {
+    margin: 0;
+    text-align: center;
+}
+.start-index h1 {
+    padding-top: 8rem;
+    margin: 0;
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 2.8rem;
+    word-spacing: 5px;
+    letter-spacing: 1.4px;
+    text-shadow: 0.03rem 0.03rem 0.08rem black;
+}
+.start-index h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-bottom: 2rem;
+}
+
+
+/* US */
+
+
+.yogagirl-desktop {
+    display: none;
+}
+
+.us-index {
+    overflow: auto;
+}
+/* .img-us {
+    width: 100%;
+} */
+.img-us img {
+    width: 100%; 
+}
+.text-us { 
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+} 
+.text-us h4 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1.5rem;
+}
+.text-us p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+.subtitle-us {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.text-us-mobile {
+    margin: 0;
+    line-height: 1.7rem;
+    padding-bottom: 2rem;
+}
+.text-us a {
+    text-decoration: none;
+    color: #eb6682;
+    /* text-shadow: 0.05rem 0.04rem 0.05rem #ccc;    */
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+}
+.text-us a:hover {
+    padding-left: 3px;
+}
+
+
+/* BETWEEN SECTIONS */
+
+.logo-box {
+    display: none;
+}
+
+
+
+/* AYURVEDA */
+
+.ayurveda-index {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.ayurveda-desktop {
+    display: none;
+}
+.text-ayurveda { 
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.text-ayurveda h4 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1.7rem;
+}
+.text-ayurveda p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.7rem;
+    padding-bottom: 2rem;
+}
+.text-ayurveda a {
+    text-decoration: none;
+    color: #eb6682;
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+}
+.text-ayurveda a:hover {
+    padding-left: 3px;
+}
+.img-ayurveda img {
+    width: 100%;
+}
+
+
+
+/* BLOG */
+
+
+.postsblog-index {
+    display: inline-flex;
+    background-image: url(../images/bg-cards2-mobile.png);
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+}
+.content-blog-index {
+    display: none;
+}
+
+
+
+
+/* FOOTER */
+
+.footer-index {
+    font-family: 'Open Sans', Verdana;
+    background-color: #ebe9e7;
+}
+.footer-index a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    transition: color 0.5s;
+}
+.footer-index a:hover {
+    color: #eb6682;
+}
+.footer-index ul {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+.footer-index li {
+    padding-bottom: 0.7rem;
+}
+.footer-index .fa {
+    font-size: 1.5rem;
+}
+.footlist-mobile-one {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footlist-mobile-two {
+    display: flex;
+}
+.footnav-index-mobile {
+    padding-top: 2rem;
+}
+.mobilefirst-list {
+    width: 100%
+}
+.mobilesecond-list {
+    width: 100%
+}
+.footnav-index {
+    display: none;
+}
+.footsocial-mobile {
+    padding: 0;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook {
+    padding-left: 1rem;
+}
+.fa-twitter {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.copyright-index {
+    margin: 0;
+    text-align: center;
+    clear: both;
+    color: #6e6c6c;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: #ebe9e7;
+}
+
+.copyright-index p {
+    margin: 0;
+}
+
+
+@media (max-width: 576px) {
+    .footlist-mobile-two {
+        text-align: center;
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .start-index {
+        background-image: url(../images/dhyana-tablet.png);
+    }
+    .start-index h1 {
+        font-size: 3rem;
+        padding-top: 13rem;
+    }
+    .start-index h3 {
+        font-size: 1.5rem;
+    }
+    .contact-btn-yoga a {
+        font-size: 2rem;
+        padding: 0.7rem;
+    }
+    .text-us h4,
+    .text-ayurveda h4 {
+        font-size: 1.7rem;
+    }
+    .text-us .subtitle-us,
+    .text-ayurveda .subtitle-ayurveda {
+        font-size: 1.1rem;
+    }
+    .text-us .text-us-mobile,
+    .text-ayurveda .text-ayurveda-mobile {
+        font-size: 1.1rem;
+        line-height: 2;
+    }
+    .text-us a,
+    .text-ayurveda a {
+        font-size: 1.2rem;
+    }
+    .footnav-index-mobile ul {
+        font-size: 1.2rem;
+    }
+    .copyright-index {
+        font-size: 1rem;
+    }
+    .footlist-mobile-two {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (min-width: 960px) {
+    .start-index {
+        background-image: url(../images/DY.jpg);
+    }
+    .start-index a:-webkit-any-link {
+        text-decoration: none;
+        color: #fdfaf7;
+    }
+    .nav-index ul {
+        display: unset;
+    }
+    .nav-index {
+        list-style-type: none;
+        padding-top: 1rem;
+    }
+    .nav-index li a {
+        float: right;
+        display: block;
+    }
+    .nav-index ul {
+        width: 80%;
+        padding: 0;
+        list-style-type: none;
+        margin: auto;
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.4rem;
+    }
+    .header-index {
+        text-align: left;
+        margin: 10rem 5rem;
+    }
+    .start-index h1 {
+        font-family: 'Droid Serif', Helvetica;
+        font-size: 2.8rem;
+        word-spacing: 5px;
+        letter-spacing: 1.4px;
+        text-shadow: 0.03rem 0.03rem 0.08rem black;
+    }
+    .start-index h3 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 100;
+    }
+    .contact-btn-yoga {
+        display: none;
+    }
+    .text-us h4,
+    .text-ayurveda h4 {
+        font-size: 1.9rem;
+    }
+    .text-us .subtitle-us,
+    .text-ayurveda .subtitle-ayurveda {
+        font-size: 1.2rem;
+    }
+    .text-us .text-us-mobile,
+    .text-ayurveda .text-ayurveda-mobile {
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+    .text-us a,
+    .text-ayurveda a {
+        font-size: 1.4rem;
+    }
+
+
+    .content-blog-index {
+        display: unset;
+    }
+    .cards {
+        margin-left: 5rem;
+        padding-top: 7rem;
+    }
+    .postsblog-index h4 {
+        font-family: 'Droid Serif', Helvetica;
+        font-size: 1.7rem;
+        margin-left: 2rem;
+        padding-top: 3rem;
+    }
+    .blog-card {
+        background-color: #fdfaf7;
+        box-shadow: 0.04rem 0.05rem 0.9rem rgb(94, 91, 91);
+        width: 13rem;
+        height: 17rem;
+        padding: 1rem;
+    }
+    .blog-card h5 {
+        font-family: 'Droid Serif', Helvetica;
+        font-size: 1rem;
+    }
+    .blog-card p {
+        font-family: 'Open Sans', Helvetica;
+        font-size: 0.9rem;
+        text-align: justify;
+        line-height: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .blog-card a {
+        text-decoration: none;
+        color: #eb6682;
+        font-family: 'Open Sans', Helvetica;
+        transition: padding-left 0.3s;
+    }
+    .blog-card a:hover {
+        padding-left: 3px;
+    }
+    .first {
+        float: left;
+        margin-right: 2rem;
+
+    }
+    .second {
+        float: left;
+        margin-right: 2rem;
+    }
+    .third {
+        float: left;
+    }
+
+
+    .footnav-index-mobile {
+        display: none;
+    }
+    .footnav-index {
+        display: unset;
+    }
+    .footer-index {
+        font-family: 'Open Sans', Verdana;
+    }
+    .footer-index a {
+        text-decoration: none;
+        color: rgb(54, 53, 53);
+        transition: color 0.5s;
+    }
+    .footer-index a:hover {
+        color: #eb6682;
+    }
+    .footnav-index ul {
+        font-size: 1.1rem;
+    }
+    .footer-index li {
+        padding-bottom: 0.7rem;
+    }
+    .footer-index .fa {
+        font-size: 1.5rem;
+    }
+    .end-index {
+        overflow: auto;
+        padding-top: 1rem;
+    }
+    .first-list {
+        float: right;
+        width: 15%;
+    }
+    .second-list, .third-list {
+        float: right;
+        width: 15%;
+    }
+    .social-list {
+        float: left;
+        width: 15%;
+        display: inline-flex
+    }
+    .social-list p {
+        margin: 0;
+    }
+    .social-list li {
+        padding-right: 1rem;
+    }
+    .footnav-index p {
+        margin-left: 2.5rem;
+    }
+    .copyright-index {
+        font-size: 0.98rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* INDEX */
+
+    .container-index {
+        background-color: #fdfaf7;
+    }
+    .start-index {
+        background-image: url(../images/DY.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        color: #fdfaf7;
+        height: 95vh;
+    }
+    .start-index h3 {
+        font-size: 1.17em;
+    }
+    .nav-index {
+        padding-top: 1rem;
+    }
+    .nav-index ul {
+        font-size: 1rem;
+        width: 69%;
+    }
+    .header-index {
+        margin: 0rem 5rem;
+    }
+
+
+    /* US */
+    .yogagirl-mobile {
+        display: none;
+    }
+    .yogagirl-desktop {
+        display: unset;
+    }
+
+    .us-index {
+        overflow: auto;
+    }
+    .img-us {
+        width: 50%;
+        float: left;
+    }
+    .img-us img {
+        height: 39.5rem;
+        
+    }
+    .text-us { 
+        width: 44%;
+        float: right;
+        height: 32rem;
+        text-align: left;
+    }
+    .text-us h4 {
+        font-size: 1.7rem;
+        text-align: left;
+    }
+    .text-us .subtitle-us {
+        font-size: 0.9rem;
+    }
+    .text-us .text-us-mobile {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        margin-right: 8rem;
+        text-align: justify;
+    }
+    .text-us a {
+        text-decoration: none;
+        color: #eb6682;
+        font-size: 1rem;
+    }
+    .text-us a:hover {
+        padding-left: 3px;
+    }
+
+
+    /* BETWEEN SECTIONS */
+
+    .logo-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -50px;
+    }
+    .logo-content {
+        position: absolute;
+        height: 10rem;
+    }
+
+
+    /* AYURVEDA  */
+
+
+    .ayurveda-mobile {
+        display: none;
+    }
+    .ayurveda-desktop {
+        display: unset;
+    }
+    .text-ayurveda { 
+        width: 44%;
+        float: left;
+        padding: 1rem 2rem;
+        text-align: left;
+    }
+    .text-ayurveda h4 {
+        font-size: 1.7rem;
+        text-align: left;
+    }
+    .text-ayurveda .subtitle-ayurveda {
+        font-size: 0.9rem;
+    }
+    .text-ayurveda .text-ayurveda-mobile {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        margin-right: 8rem;
+        text-align: justify;
+    }
+    .text-ayurveda a {
+        text-decoration: none;
+        color: #eb6682;
+        font-size: 1rem;
+    }
+    .text-ayurvedas a:hover {
+        padding-left: 3px;
+    }
+    .text-ayurveda a:hover {
+        padding-left: 3px;
+    }
+    .img-ayurveda img {
+        height: 38.9rem;
+        float: right;
+        width: 50%;
+    }
+
+
+
+    /* BLOG  */
+
+
+
+
+
+    /* FOOTER */
+
+    .footer-index {
+        font-family: 'Open Sans', Verdana;
+        background-color: #ebe9e7;
+    }
+    .footer-index a {
+        text-decoration: none;
+        color: rgb(54, 53, 53);
+        transition: color 0.5s;
+    }
+    .footer-index a:hover {
+        color: #eb6682;
+    }
+    .footer-index ul {
+        list-style-type: none;
+        font-size: 0.85rem;
+    }
+    .footer-index li {
+        padding-bottom: 0.7rem;
+    }
+    .footer-index .fa {
+        font-size: 1.5rem;
+    }
+    .end-index {
+        overflow: auto;
+        padding-top: 1rem;
+    }
+    .first-list {
+        float: right;
+        width: 15%;
+    }
+    .second-list, .third-list {
+        float: right;
+        width: 15%;
+    }
+    .social-list {
+        float: left;
+        width: 15%;
+        display: inline-flex
+    }
+    .social-list p {
+        margin: 0;
+    }
+    .social-list li {
+        padding-right: 1rem;
+    }
+    .footnav-index p {
+        margin-left: 2.5rem;
+    }
+    .copyright-index {
+        text-align: center;
+        clear: both;
+        color: #6e6c6c;
+        font-size: 0.8rem;
+        padding-top: 0.5rem;
+        background-color: #ebe9e7;
+    }
+}
+
+
+/* INDEX 
+
+.container-index {
+    background-color: #fdfaf7;
+}
+.start-index {
+    background-image: url(../images/DY.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: #fdfaf7;
+    height: 95vh;
+}
+
+
+
+
+
+
+ US
+
+.us-index {
+    overflow: auto;
+}
+.img-us {
+    width: 50%;
+    float: left;
+}
+.img-us img {
+    height: 39.5rem;
+    
+}
+.text-us { 
+    width: 44%;
+    float: right;
+    height: 32rem;
+}
+.text-us h4 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1.7rem;
+}
+.text-us p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 0.9rem;
+    margin-right: 8rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.text-us a {
+    text-decoration: none;
+    color: #eb6682;
+    /* text-shadow: 0.05rem 0.04rem 0.05rem #ccc;    
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+}
+.text-us a:hover {
+    padding-left: 3px;
+}
+
+
+BETWEEN SECTIONS
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -4px;
+}
+.logo-content {
+    position: absolute;
+    height: 10rem;
+}
+
+
+ AYURVEDA 
+
+
+
+.text-ayurveda { 
+    width: 36%;
+    float: left;
+    padding: 1rem 2rem;
+}
+.text-ayurveda h4 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1.7rem;
+}
+.text-ayurveda p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.text-ayurveda a {
+    text-decoration: none;
+    color: #eb6682;
+    /* text-shadow: 0.05rem 0.04rem 0.05rem #ccc;    
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+}
+.text-ayurveda a:hover {
+    padding-left: 3px;
+}
+.img-ayurveda img {
+    height: 38.9rem;
+    float: right;
+}
+
+
+
+ BLOG 
+
+
+
+
+
+/* FOOTER 
+
+.footer-index {
+    font-family: 'Open Sans', Verdana;
+    background-color: #ebe9e7;
+}
+.footer-index a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    transition: color 0.5s;
+}
+.footer-index a:hover {
+    color: #eb6682;
+}
+.footer-index ul {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+.footer-index li {
+    padding-bottom: 0.7rem;
+}
+.footer-index .fa {
+    font-size: 1.5rem;
+}
+.end-index {
+    overflow: auto;
+    padding-top: 1rem;
+}
+.first-list {
+    float: right;
+    width: 15%;
+}
+.second-list, .third-list {
+    float: right;
+    width: 15%;
+}
+.social-list {
+    float: left;
+    width: 15%;
+    display: inline-flex
+}
+.social-list p {
+    margin: 0;
+}
+.social-list li {
+    padding-right: 1rem;
+}
+.footnav-index p {
+    margin-left: 2.5rem;
+}
+.copyright-index {
+    text-align: center;
+    clear: both;
+    color: #6e6c6c;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: #ebe9e7;
+}
+*/
