@@ -37,7 +37,7 @@
     text-align: left;
     padding-top: 3rem;
   }
-  .hello-index a:-webkit-any-link {
+  .hello-index a:any-link {
     text-decoration: none;
     color: #4288b6;
   }
@@ -162,7 +162,7 @@
     padding: 0;
     padding-top: 6.5rem;
     margin-right: 2rem;
-    text-align: -webkit-left;
+    text-align: left;
   }
   .text-about h2 {
     font-size: 3.5rem;
