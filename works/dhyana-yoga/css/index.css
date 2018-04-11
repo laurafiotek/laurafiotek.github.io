@@ -19,7 +19,7 @@ img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000w
     color: #fdfaf7;
     height: 95vh;
 }
-.start-index a:-webkit-any-link {
+.start-index a:link, a:visited {
     text-decoration: none;
     color: #fdfaf7;
 }
