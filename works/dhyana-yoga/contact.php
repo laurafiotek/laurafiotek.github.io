@@ -6,7 +6,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, PHP, MySql">
     <meta name="description" content="Clases de yoga">
     <title>Respira una nueva vida</title>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Droid+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Droid+Serif" rel="stylesheet">
     <link href="images/fav-yoga2.png" rel="shortcut icon">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
