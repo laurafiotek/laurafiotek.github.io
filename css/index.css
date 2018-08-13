@@ -8,7 +8,7 @@ body {
 
 /* FIRST SECTION */
 
-.hello-index {
+.index-container .hello-index {
     background-image: url(../img/hellomobile.png);
     background-size: cover;
     height: 100vh;
@@ -117,14 +117,40 @@ body {
   /* box-shadow: 7px 0px 54px -6px rgba(20, 20, 20, 0.81); */
   box-shadow: 0px 0px 21px -4px rgba(20, 20, 20, 0.81);
 }
-
+.nomad-home-container {
+  padding-top: 3rem;
+}
 .docturno_landing {
   background-color: #238ccc;
   color: #eaebf3;
 }
 
+.nomad-design {
+  background-color: #f9f9fb;
+  color: #eaebf3;
+}
+.nomad-design h3,
+.nomad-design .projects-content p {
+  color: #626b9f;
+}
+
+.nomad-design .lead-work a {
+  color: #626b9f;
+}
+
+.nomad-design .lead-work {
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+}
+
+.nomad-design .lead-work a {
+  background-color: transparent;
+  border: 1.2px solid #626b9f;
+}
+
 .dhyana_yoga h3,
-.docturno_landing h3 {
+.docturno_landing h3,
+.nomad-design h3 {
   padding-top: 2rem;
   margin: 0;
   font-weight: 100;
@@ -337,7 +363,7 @@ body {
 
 
 @media (min-width: 768px) {
-  .hello-index {
+  .index-container .hello-index {
     background-image: url(../img/hellotablet2.png);
   }
   .nav-index {
@@ -363,7 +389,7 @@ body {
 
 
 @media (min-width: 960px) {
-  .hello-index {
+  .index-container .hello-index {
     background-image: url(../img/hellotablet2.png);
   }
   .header-index {
@@ -445,7 +471,7 @@ body {
 
 
 @media (min-width: 1200px) {
-  .hello-index {
+  .index-container .hello-index {
     background-image: url(../img/hello.png);
   }
   .contact-nav {
@@ -631,6 +657,13 @@ body {
   }
   .btn:hover {
     background-color: #4758aa;
+  }
+  .btn-nomad {
+    transition: color 0.5s;
+  }
+  .btn-nomad:hover {
+    background-color: #4758aa;
+    color: #f9f9fb;
   }
   .works-index img {
     max-width: 45%;
